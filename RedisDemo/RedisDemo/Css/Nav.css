@@ -1,0 +1,126 @@
+﻿/* CSS Document */
+nav{
+    position:absolute;
+    left:100px;
+    top:100px;
+    border:1px solid #b61d1d;
+    }
+/*全部商品分类*/
+.all{
+    width:210px;
+    height:44px;
+    line-height:44px;
+    background:#b1191a;
+    padding:0 10px;
+    }
+    .all a{
+            color:white;
+            font-size:16px;
+
+        }
+/*导航菜单*/
+.nav_item{
+
+    width:210px;
+    height:31px;
+    line-height:31px;
+    color:white;
+    background:#b61d1d;
+    padding:0 10px;
+    }
+ul li a{color:white;}
+
+.jt{
+    color:white;
+    float:right;
+    width:12px;
+    padding-top:10px;
+    font: 13px consolas;
+    }
+    /*hover*/
+ul li:hover {
+    background:white;
+    }
+ul li:hover a{
+        color:#b61d1d;
+        }
+    /*submenu*/
+.sub_menu{
+    display:none;
+    width:790px;
+    position:absolute;
+    left:209px;
+    top:44px;
+    background:#f7f7f7;
+    z-index:999;
+}
+ul li:hover .sub_menu{display:block;}
+.leftmenu{
+   width: 550px;
+   overflow:hidden;
+   float:left;
+}
+.leftmenu dl{
+    overflow:hidden;
+    display:block;
+    margin: 20px 0;
+
+    }
+.leftmenu dl dt{
+    float:left;
+    font-weight:bold;
+    color:#737373;
+    padding:0 8px;
+
+}
+
+.leftmenu dl  dd  a{
+     color: #737373;
+    float:left;
+    height:20px;
+    line-height:20px;
+    padding:0 10px;
+    border-left: 1px solid #e0e0e0;
+     font-size:12px;
+     margin-top:5px;
+}
+.rightmenu{
+    float:right;
+    }
+.rightmenu dl {
+    margin-top:20px;
+
+    }
+.rightmenu dl dd {
+    padding:0;
+    margin-bottom:2px;
+    }
+
+cssreset.css
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0; 
+    margin: 0; 
+    border: none;
+ font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+ font-size: 14px;
+} 
+ol,ul{
+    list-style: none;
+}
+fieldset,img{
+    border:0;
+}
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+a{
+    text-decoration: none;
+     color: #737373;
+}
+img, iframe {
+    border: none;
+    text-decoration:none;
+} 

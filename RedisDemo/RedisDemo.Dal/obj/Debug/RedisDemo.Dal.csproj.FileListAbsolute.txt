@@ -1,0 +1,9 @@
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\RedisDemo.Dal.dll
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\RedisDemo.Dal.pdb
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\obj\Debug\RedisDemo.Dal.csprojResolveAssemblyReference.cache
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\obj\Debug\RedisDemo.Dal.dll
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\obj\Debug\RedisDemo.Dal.pdb
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\RedisDemo.Common.dll
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\NHibernate.dll
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\RedisDemo.Common.pdb
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Dal\bin\Debug\NHibernate.xml

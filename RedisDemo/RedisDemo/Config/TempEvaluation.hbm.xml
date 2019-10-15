@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="RedisDemo.Common" namespace="RedisDemo.Common.Domain">
+  <class name="RedisDemo.Common.Domain.TempEvaluation,RedisDemo.Common" table="Temp_Evaluation">
+    <id name="Id" column="Id" type="int"></id>
+    <property name="EvalHouseId" column="EvalHouseId" type="int"></property>
+    <property name="EvalOrg" column="EvalOrg" type="string"></property>
+    <property name="CommunityName" column="CommunityName" type="string"></property>
+    <property name="CommunityAddress" column="CommunityAddress" type="string"></property>
+    <property name="Price" column="Price" type="double"></property>
+    <property name="Evaluation" column="Evaluation" type="double"></property>
+  </class>
+</hibernate-mapping>

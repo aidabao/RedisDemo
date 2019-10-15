@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+This template was written to work with NHibernate.Test.
+Copy the template to your NHibernate.Test project folder and rename it in hibernate.cfg.xml and change it 
+for your own use before compile tests in VisualStudio.
+-->
+<!-- This is the System.Data.dll provider for SQL Server -->
+<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2" >
+	<session-factory name="RedisDemo">
+		<property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+		<property name="connection.connection_string">
+      Server=172.16.0.12;database=HNBC_NEW20191008;uid=sa;pwd=123@abc
+    </property>
+    <!--数据库方言-->
+		<property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+    <!--在控制台显示sql-->
+    <property name="show_sql">true</property>
+    <!--指定映射程序集,映射文件所在的程序集-->
+    <mapping assembly="RedisDemo"></mapping>
+	</session-factory>
+</hibernate-configuration>

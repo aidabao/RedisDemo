@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Scripts/layui/css/layui.css" />
+    <link rel="stylesheet" href="~/Css/Nav.css" />
+    <script src="~/Scripts/layui/layui.js"></script>
+</head>
+<body>
+    <div>
+
+        <ul class="layui-nav layui-bg-green" lay-filter="demo">
+            <li class="layui-nav-item"><a href="">墨绿导航</a></li>
+            <li class="layui-nav-item layui-this"><a href="">产品</a></li>
+            <li class="layui-nav-item"><a href="">大数据</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">解决方案</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">移动模块</a></dd>
+                    <dd><a href="">后台模版</a></dd>
+                    <dd><a href="">电商平台</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="">社区</a></li>
+        </ul>
+        <nav>
+            <div class="all">
+                <a href="">全部商品分类</a>
+            </div>
+            <ul>
+                <li class="nav_item">
+                    <a>家用电器</a><span class="jt">></span>
+                    <div class="sub_menu">
+                        <div class="leftmenu">
+                            <dl>
+                                <dt><a href="#">大家电</a></dt>
+                                <dd>
+                                    <a href="#">平板电视</a>
+                                    <a href="#">空调</a>
+                                    <a href="#">冰箱</a>
+                                    <a href="#">洗衣机</a>
+                                    <a href="#">家庭影院</a>
+                                    <a href="#">DVD</a>
+                                    <a href="#">迷你音响</a>
+                                    <a href="#">烟机/灶具</a>
+                                    <a href="#"> 热水器</a>
+                                    <a href="#">消毒柜/洗碗机</a>
+                                    <a href="#">冷柜/冰吧</a>
+                                    <a href="#">酒柜</a>
+                                    <a href="#">家电配件</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">生活电器</a></dt>
+                                <dd>
+                                    <a href="#">电风扇</a>
+                                    <a href="#">冷风扇</a>
+                                    <a href="#">净化器</a>
+                                    <a href="#">加湿器</a>
+                                    <a href="#">扫地机器人</a>
+                                    <a href="#">吸尘器</a>
+                                    <a href="#">挂烫机/熨斗</a>
+                                    <a href="#">插座</a>
+                                    <a href="#"> 电话机</a>
+                                    <a href="#">清洁机</a>
+                                    <a href="#">除湿机</a>
+                                    <a href="#">干衣机</a>
+                                    <a href="#">收录/音机</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">厨房电器</a></dt>
+                                <dd>
+                                    <a href="#">电压力锅</a>
+                                    <a href="#">空调</a>
+                                    <a href="#">冰箱</a>
+                                    <a href="#">洗衣机</a>
+                                    <a href="#">家庭影院</a>
+                                    <a href="#">DVD</a>
+                                    <a href="#">迷你音响</a>
+                                    <a href="#">烟机/灶具</a>
+                                    <a href="#"> 热水器</a>
+                                    <a href="#">消毒柜/洗碗机</a>
+                                    <a href="#">冷柜/冰吧</a>
+                                    <a href="#">酒柜</a>
+                                    <a href="#">家电配件</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">个护健康</a></dt>
+                                <dd>
+                                    <a href="#">平板电视</a>
+                                    <a class="test" href="#">空调</a>
+                                    <a href="#">冰箱</a>
+                                    <a href="#">洗衣机</a>
+                                    <a href="#">家庭影院</a>
+                                    <a href="#">DVD</a>
+                                    <a href="#">迷你音响</a>
+                                    <a href="#">烟机/灶具</a>
+                                    <a href="#"> 热水器</a>
+                                    <a href="#">消毒柜/洗碗机</a>
+                                    <a href="#">冷柜/冰吧</a>
+                                    <a href="#">酒柜</a>
+                                    <a href="#">家电配件</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">五金家装</a></dt>
+                                <dd>
+                                    <a href="#">平板电视</a>
+                                    <a href="#">空调</a>
+                                    <a href="#">冰箱</a>
+                                    <a href="#">洗衣机</a>
+                                    <a href="#">家庭影院</a>
+                                    <a href="#">DVD</a>
+                                    <a href="#">迷你音响</a>
+                                    <a href="#">烟机/灶具</a>
+                                    <a href="#"> 热水器</a>
+                                    <a href="#">消毒柜/洗碗机</a>
+                                    <a href="#">冷柜/冰吧</a>
+                                    <a href="#">酒柜</a>
+                                    <a href="#">家电配件</a>
+                                </dd>
+                            </dl>     
+                        </div>
+                        <div class="rightmenu">
+                            <dl>
+                                <dd>
+                                    <a href="http://sale.jd.com/act/1XDZ6ShE5M7tTrl.html">
+                                        <img src="http://img10.360buyimg.com/vclist/jfs/t1198/21/1061230330/3619/48ee51cc/556ed3a0N9004a8f7.jpg"
+                                             width="168" height="134" title="by:罗坚元">
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="http://sale.jd.com/act/v8kJIaPmsMGuebpH.html">
+                                        <img src="http://img11.360buyimg.com/vclist/jfs/t1531/43/307393451/3092/229dc57a/557194e1N0d5188f3.jpg"
+                                             width="168" height="134" title="by:罗坚元">
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_item"><a href="#">手机</a>、<a href="#">数码</a>、<a href="#">京东通信</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">电脑</a>、<a href="#">办公</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">家居</a>、<a href="#">家具</a>、<a href="#">家装</a>、<a href="#">厨具</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">男装</a>、<a href="#">女装</a>、<a href="#">内衣</a>、<a href="#">珠宝</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">个护化妆</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">鞋靴</a>、<a href="#">箱包</a>、<a href="#">钟表</a>、<a href="#">奢侈品</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">运动户外</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">汽车</a>、<a href="#">汽车用品</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">母婴</a>、<a href="#">玩具乐器</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">食品饮料</a>、<a href="#">酒类</a>、<a href="#">生鲜</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">营养保健</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">图书</a>、<a href="#">音像</a>、<a href="#">数字商品</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">彩票</a>、<a href="#">旅行</a>、<a href="#">充值</a>、<a href="#">票务</a><span class="jt">></span></li>
+                <li class="nav_item"><a href="#">理财</a>、<a href="#">众筹</a>、<a href="#">白条</a>、<a href="#">保险</a><span class="jt">></span></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        layui.use('element', function () {
+            var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+            //监听导航点击
+            element.on('nav(demo)', function (elem) {
+                //console.log(elem)
+                layer.msg(elem.text());
+            });
+        });
+    </script>
+</body>
+</html>

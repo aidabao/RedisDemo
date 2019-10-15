@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="setStr()">加入一个字符串 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="setList()">加入一个列表 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="setSet()">加入集合 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="setZSet()">加入有序集合 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="setHash()">加入哈希 &raquo;</a></p>
+    </div>
+    <div class="col-md-4">        
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="getStr()">获取一个数据 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="getList()">获取列表 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="getSet()">获取集合 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="getZSet()">获取有序集合 &raquo;</a></p>
+        <p><a class="btn btn-default" href="javascript:void(0)" onclick="getHash()">获取哈希 &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+<script>
+    function setStr() {
+        $.ajax({
+            url: "/Home/SetStr",
+            data: { key: "name", value: "zhanghaifei" },
+            type: "POST",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function getStr() {
+        $.ajax({
+            url: "/Home/GetStr",
+            data: { key: "name" },
+            type: "GET",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function setList() {
+        $.ajax({
+            url: "/Home/SetList",
+            data: { key: "student", value: "456" },
+            type: "POST",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function getList() {
+        $.ajax({
+            url: "/Home/GetList",
+            data: { key: "student" },
+            type: "GET",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function setSet() {
+        $.ajax({
+            url: "/Home/SetSet",
+            data: { key: "car", value: "火车" },
+            type: "POST",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function getSet() {
+        $.ajax({
+            url: "/Home/GetSet",
+            data: { key: "car" },
+            type: "GET",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function setZSet() {
+        $.ajax({
+            url: "/Home/SetZSet",
+            data: { key: "水果", value: "梨子2" },
+            type: "POST",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function getZSet() {
+        $.ajax({
+            url: "/Home/GetZSet",
+            data: { key: "水果" },
+            type: "GET",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function setHash() {
+        $.ajax({
+            url: "/Home/SetHash",
+            data: { hashId: "地区", key: "京", value: "北京" },
+            type: "POST",
+            success: function (res) {
+                alert(res);
+            }
+        })
+    }
+    function getHash() {
+        $.ajax({
+            url: "/Home/GetHash",
+            data: { hashId: "地区" },
+            type: "GET",
+            success: function (res) {
+                alert(res);
+            }
+
+        })
+    }
+</script>
