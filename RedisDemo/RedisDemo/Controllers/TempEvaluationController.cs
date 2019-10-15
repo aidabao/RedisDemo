@@ -30,5 +30,9 @@ namespace RedisDemo.Controllers
             result = JsonConvert.SerializeObject(ro);
             return result;
         }
+        public ActionResult Index()
+        {
+            return View();
+        }
     }
 }

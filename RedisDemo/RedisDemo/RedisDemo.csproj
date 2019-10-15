@@ -398,6 +398,7 @@
     <Content Include="Scripts\layui\font\iconfont.ttf" />
     <Content Include="Scripts\layui\font\iconfont.woff" />
     <Content Include="Scripts\layui\font\iconfont.woff2" />
+    <Content Include="Views\TempEvaluation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
