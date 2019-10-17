@@ -84,3 +84,5 @@ E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\bin\zh-Hans\System.Web.Http.Owin.
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\obj\Debug\RedisDemo.Api.csprojResolveAssemblyReference.cache
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\obj\Debug\RedisDemo.Api.dll
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\obj\Debug\RedisDemo.Api.pdb
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\bin\RedisDemo.Api.dll.CodeAnalysisLog.xml
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Api\bin\RedisDemo.Api.dll.lastcodeanalysissucceeded

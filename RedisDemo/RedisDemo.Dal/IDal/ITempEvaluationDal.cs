@@ -7,7 +7,7 @@ using RedisDemo.Common.Domain;
 
 namespace RedisDemo.Dal.IDal
 {
-    interface ITempEvaluationDal
+    public interface ITempEvaluationDal
     {
         IList<TempEvaluation> GetList();
     }

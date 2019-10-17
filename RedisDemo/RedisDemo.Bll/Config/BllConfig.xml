@@ -7,8 +7,8 @@
   <!--类型的全名，然后是一个逗号，最后是类型所在的程序集名称-->
   <!--<object id="ArtiCaMana" type="MyBlog.BLL.ArtiCaManager, MyBlog.BLL" />-->
 
-  <object id="TempEvaluationBll" type="RedisDemo.Bll.Bll.TempEvaluation,RedisDemo.Bll.Bll">
-    <property name="tempEvaluationDal" ref="TempEvaluationDal"></property>
+  <object id="_TempEvaluationBll" type="RedisDemo.Bll.Bll.TempEvaluationBll,RedisDemo.Bll" singleton="false">
+    <property name="tempEvaluationDal" ref="_TempEvaluationDal"></property>
   </object>
 
 </objects>

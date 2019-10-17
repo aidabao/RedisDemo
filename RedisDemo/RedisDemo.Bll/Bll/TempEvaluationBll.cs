@@ -12,7 +12,7 @@ namespace RedisDemo.Bll.Bll
     public class TempEvaluationBll:ITempEvaluationBll
     {
         // 属性注入
-        public TempEvaluationDal tempEvaluationDal { get; set; }
+        public RedisDemo.Dal.IDal.ITempEvaluationDal tempEvaluationDal { get; set; }
         public IList<TempEvaluation> GetList()
         {
             //TempEvaluationDal td = new TempEvaluationDal();

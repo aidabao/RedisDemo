@@ -112,3 +112,6 @@ E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Core.xml
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.dll
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.pdb
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.xml
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.Mvc3.dll
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.Mvc3.pdb
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo\bin\Spring.Web.Mvc3.xml

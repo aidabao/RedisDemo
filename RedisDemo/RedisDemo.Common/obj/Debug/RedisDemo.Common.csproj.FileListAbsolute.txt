@@ -5,3 +5,5 @@ E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\obj\Debug\RedisDemo.Common.dll
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\obj\Debug\RedisDemo.Common.pdb
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\bin\Debug\NHibernate.dll
 E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\bin\Debug\NHibernate.xml
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\bin\Debug\RedisDemo.Common.dll.CodeAnalysisLog.xml
+E:\MyProject\RedisDemo\RedisDemo\RedisDemo.Common\bin\Debug\RedisDemo.Common.dll.lastcodeanalysissucceeded
