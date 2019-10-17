@@ -59,7 +59,8 @@
       <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="RedisDemo.Bll">
+    <Reference Include="RedisDemo.Bll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\RedisDemo.Bll\bin\Debug\RedisDemo.Bll.dll</HintPath>
     </Reference>
     <Reference Include="RedisDemo.Common">
@@ -91,6 +92,10 @@
     </Reference>
     <Reference Include="Spring.Web, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
       <HintPath>..\packages\Spring.Web.2.0.1\lib\net45\Spring.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spring.Web.Mvc3, Version=2.0.1.45000, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spring.Web.Mvc3.2.0.1\lib\net45\Spring.Web.Mvc3.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -247,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Config\TempEvaluation.hbm.xml" />
+    <Content Include="Config\ControllConfig.xml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Css\Nav.css" />

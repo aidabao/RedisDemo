@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<objects xmlns="http://www.springframework.net"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.net 
+  http://www.springframework.net/xsd/spring-objects.xsd">
+  <!--类型的全名，然后是一个逗号，最后是类型所在的程序集名称-->
+  <!--<object id="ArtiCaMana" type="MyBlog.BLL.ArtiCaManager, MyBlog.BLL" />-->
+
+  <object type="RedisDemo.Controllers.TempEvaluationController,RedisDemo" singleton="false">
+    <property name="tempEvaluationBll" ref="_TempEvaluationBll"></property>
+  </object>
+
+</objects>

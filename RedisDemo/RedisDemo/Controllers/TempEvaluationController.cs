@@ -12,6 +12,7 @@ namespace RedisDemo.Controllers
 {
     public class TempEvaluationController:Controller
     {
+        public ITempEvaluationBll tempEvaluationBll { get; set; }
         public ActionResult List()
         {           
             return View();
@@ -19,8 +20,7 @@ namespace RedisDemo.Controllers
         public string GetData(int page,int limit)
         {
             string result = "";
-            ITempEvaluationBll eb = new TempEvaluationBll();
-            var li = eb.GetList();
+            var li = tempEvaluationBll.GetList();
             var newli = li.Skip((page - 1) * limit).Take(limit).ToList();
             ResBaseObj<IList<TempEvaluation>> ro = new ResBaseObj<IList<TempEvaluation>>();
             ro.code = 200;
